@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >0.8.0;
 
-/// @title Abstract Auction Contract
+/// @title Auction Contract
 /// @notice This contract manages a basic time-limited auction with commission handling
 /// @dev This is an abstract contract and should be extended for full functionality
-abstract contract Auction {
+contract Auction {
 
     address private owner;
     uint startingBid;
